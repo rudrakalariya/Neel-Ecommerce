@@ -51,4 +51,47 @@
 git clone https://github.com/rudrakalariya/Neel-Ecommerce.git
 cd ec
 ```
+### 2. 🧪 Create and activate a virtual environment
+```bash
+python -m venv env
+source env/bin/activate   # On Windows use: env\Scripts\activate
+```
+### 3. 📦 Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. ⚙️ Set up the database
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+### 5. 👤 Create a superuser (admin)
+```bash
+python manage.py createsuperuser
+```
+### 6. ▶️ Run the development server
+```bash
+python manage.py runserver
+```
+🔗 Visit: http://localhost:8000
 
+---
+
+## 🗂️ Project Structure (Django)
+```
+Neel-Ecommerce/
+├── ecommerce/           # Django project settings
+├── app/                # Core app for products, cart, orders
+├── templates/           # HTML templates
+├── static/              # Static files (CSS, JS, images)
+├── db.sqlite3           # Default database
+└── manage.py
+```
+---
+
+## 🔐 Security
+🔒 Passwords encrypted with Django's built-in hashing
+
+✅ Login required for cart and order actions
+
+🔐 Admin panel secured with superuser access
