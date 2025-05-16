@@ -95,7 +95,9 @@ Neel-Ecommerce/
 ✅ Login required for cart and order actions
 
 🔐 Admin panel secured with superuser access
+
 ---
+
 ## 🙏 Thank You
 Thank you for exploring Neel-Ecommerce!
 Your feedback and contributions are always welcome.
