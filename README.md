@@ -49,4 +49,6 @@
 
 ```bash
 git clone https://github.com/rudrakalariya/Neel-Ecommerce.git
-cd Neel-Ecommerce
+cd ec
+```
+
